@@ -20,7 +20,7 @@ class Bot(Client):
 
     def __init__(self):
         super().__init__(
-            "bot_session",
+            name="bot_session",
             api_hash=Config.API_HASH,
             api_id=Config.APP_ID,
             bot_token=Config.TG_BOT_TOKEN,
